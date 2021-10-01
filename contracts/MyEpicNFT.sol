@@ -167,6 +167,7 @@ contract MyEpicNFT is ERC721URIStorage {
         _setTokenURI(newItemId, finalTokenUri);
 
         _tokenIds.increment();
+        
         console.log(
             "An NFT w/ ID %s has been minted to %s",
             newItemId,
